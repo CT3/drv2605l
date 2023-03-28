@@ -1,0 +1,14 @@
+# DRV2605L Nano Power Real time Clock configuration options
+
+#
+# Copyright (c) 2022 Circuit Dojo LLC
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+menuconfig DRV2605L
+	bool "DRV2605L Real Time Clock"
+	depends on I2C
+	depends on SENSOR
+	help
+	  Enable SPI/I2C-based driver for DRV2605L based RTC
