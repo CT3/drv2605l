@@ -20,7 +20,7 @@
 
 #include <zephyr/sys/timeutil.h>
 
-#include <drivers/counter/drv2605l.h>
+#include <drivers/sensor/drv2605l.h>
 
 #include <zephyr/logging/log.h>
 LOG_MODULE_REGISTER(drv2605l);
