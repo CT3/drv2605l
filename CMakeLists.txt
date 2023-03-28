@@ -5,4 +5,4 @@
 #
 
 zephyr_include_directories(include)
-add_subdirectory_ifdef(CONFIG_PCF85063A drivers/counter)
+add_subdirectory_ifdef(CONFIG_DRV2605L drivers/sensor)

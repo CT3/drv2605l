@@ -4,4 +4,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-rsource "drivers/counter/Kconfig"
+rsource "drivers/sensor/Kconfig"
